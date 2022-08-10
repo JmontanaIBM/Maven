@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "commerceTransferButtonId": "${commerceTransferButtonId}",
+      "transferReference": "${transferReference}",
+      "transferAmount": "${transferAmount}",
+      "commerceUrl": "${commerceUrl}",
+      "transferDescription": "${transferDescription}",
+      "confirmationURL": "${confirmationURL}"
+    }
+  ]
+}

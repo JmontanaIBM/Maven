@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "commerceTransferButtonId": "w0mp1B0toN",
+      "transferReference": "1002345678",
+      "transferAmount": 3458.33,
+      "commerceUrl": "https://gateway.com/payment/route?commerce=Telovendo",
+      "transferDescription": "Compra en Telovendo",
+      "confirmationURL": "https://pagos-api-dev.tigocloud.net/bancolombia/callback"
+    }
+  ]
+}
