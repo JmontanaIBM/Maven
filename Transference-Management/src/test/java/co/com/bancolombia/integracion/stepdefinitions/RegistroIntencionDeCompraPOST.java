@@ -31,8 +31,6 @@ public class RegistroIntencionDeCompraPOST extends AbstractStepDefinition {
 
         Map<String, Object> headers = apiHeaders();
         headers.put("content-type", getProperty("content-type"));
-		headers.put("client-id", getProperty("x-ibm-client-id"));
-		headers.put("client-secret", getProperty("x-ibm-client-secret"));
 
         runner.http(action -> action.client("seguridadGateway")
                 .send()
